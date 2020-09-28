@@ -1,8 +1,8 @@
 {
   "name": "vue3-auto-route-record",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "auto route record maker in vue3",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "author": "sokcuri",
   "license": "MIT",
   "homepage": "https://github.com/sokcuri/vue3-auto-route-record",
