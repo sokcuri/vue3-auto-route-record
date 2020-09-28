@@ -1,10 +1,16 @@
 {
   "name": "vue3-auto-route-record",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "auto route record maker in vue3",
   "main": "dist/main.js",
-  "author": "",
-  "license": "ISC",
+  "author": "sokcuri",
+  "license": "MIT",
+  "homepage": "https://github.com/sokcuri/vue3-auto-route-record",
+  "issues": "https://github.com/sokcuri/vue3-auto-route-record/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sokcuri/vue3-auto-route-record"
+  },
   "devDependencies": {
     "@types/fs-extra": "^9.0.1",
     "@types/jest": "^26.0.14",

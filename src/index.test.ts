@@ -1,5 +1,5 @@
-import Vue3AutoRouteRecord from './main'
-import * as route from './main'
+import Vue3AutoRouteRecord from '.'
+import * as route from '.'
 
 test('should set options property', () => {
   const opts = {
@@ -15,7 +15,7 @@ test('should set options property', () => {
 })
 
 test('glob test', () => {
-  const expected = ['main.test.ts', 'main.ts']
+  const expected = ['index.test.ts', 'index.ts']
   const files = route.getRoutableFiles('src', 'ts')
 
   expect(expected).toEqual(files)
