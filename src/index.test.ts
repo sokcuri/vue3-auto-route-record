@@ -1,4 +1,4 @@
-import DemoPlugin from './cjs';
+import DemoPlugin from './index';
 
 test('should set options property', () => {
   const opts = {
