@@ -9,13 +9,15 @@
     "@types/fs-extra": "^9.0.1",
     "@types/jest": "^26.0.14",
     "@types/webpack": "^4.41.22",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.5.0",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^5.2.0",
     "del-cli": "^1.1.0",
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "eslint-config-webpack": "^1.2.5",
     "eslint-plugin-import": "^2.16.0",
     "fast-glob": "^3.2.4",
@@ -34,7 +36,6 @@
     "vue-router": "^4.0.0-0"
   },
   "scripts": {
-    "start": "ts-node src/route.ts",
     "build": "cross-env NODE_ENV=production tsc",
     "clean": "del-cli dist",
     "lint": "eslint src",
@@ -43,7 +44,7 @@
     "test:coverage": "jest --coverage"
   },
   "lint-staged": {
-    "*.js": [
+    "*.ts": [
       "eslint --fix",
       "git add"
     ]

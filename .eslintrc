@@ -1,5 +1,12 @@
 {
-  "extends": "webpack",
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
   "rules": {
     "class-methods-use-this": "off"
   }
