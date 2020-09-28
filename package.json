@@ -11,9 +11,6 @@
     "@types/webpack": "^4.41.22",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^24.5.0",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^5.2.0",
     "del-cli": "^1.1.0",
@@ -51,5 +48,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
