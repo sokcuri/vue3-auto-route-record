@@ -2,10 +2,11 @@
   "name": "vue3-auto-route-record",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/cjs.js",
+  "main": "dist/main.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
     "@types/jest": "^26.0.14",
     "@types/webpack": "^4.41.22",
     "babel-cli": "^6.26.0",
@@ -17,17 +18,23 @@
     "eslint": "^5.15.3",
     "eslint-config-webpack": "^1.2.5",
     "eslint-plugin-import": "^2.16.0",
+    "fast-glob": "^3.2.4",
+    "fs-extra": "^9.0.1",
     "husky": "^1.3.1",
     "jest": "^26.4.2",
     "lint-staged": "^8.1.5",
     "ts-jest": "^26.4.0",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
+    "vue-router": "^4.0.0-0",
     "webpack": "^4.6.0"
   },
   "peerDependencies": {
-    "webpack": "^4.0.0"
+    "webpack": "^4.0.0",
+    "vue-router": "^4.0.0-0"
   },
   "scripts": {
+    "start": "ts-node src/route.ts",
     "build": "cross-env NODE_ENV=production tsc",
     "clean": "del-cli dist",
     "lint": "eslint src",

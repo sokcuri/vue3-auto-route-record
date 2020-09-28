@@ -2,11 +2,13 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
+    "baseUrl": ".",
+    "rootDir": ".",
     "moduleResolution": "node",
     "module": "commonjs",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "target": "es2019",
-    "jsx": "react",
     "allowJs": true
   },
   "include": ["src/**/*"],
